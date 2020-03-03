@@ -57,7 +57,7 @@ To see if the images are shared successfully, follow this( create new task-> con
 
 Now download and update user name and password in <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_api_testing.py">automation.py</a></p>and run it. 
 
-Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready for annotatio.
+Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready to annotate.
 
 
 
