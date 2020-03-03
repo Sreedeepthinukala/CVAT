@@ -37,7 +37,7 @@ cd cvat
 Replace the original docker compose yml file with <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.yml">docker-compose-yml</a></p>
 Under Volumes near device, give the path of the images folder.
 
-Add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.override.yml">docker-override.yml</a></p> in the cvat folder.
+In the cvat folder, add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.override.yml">docker-override.yml</a></p> 
 
 
 Build docker images by default. It will take some time to download public docker image ubuntu:16.04 and install all necessary ubuntu packages to run CVAT server.
