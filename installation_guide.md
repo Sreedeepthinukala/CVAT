@@ -1,4 +1,4 @@
-Open a terminal window. If you don't know how to open a terminal window on Ubuntu.
+Open a terminal window.
 
 Type(you can copy paste all the commands) commands below into the terminal window to install docker. More instructions can be found here.
 
