@@ -11,7 +11,7 @@ server = 'http://localhost:8080'
 api = '/api/v1'
 tasks = '/tasks'
 users = '/users'
-auth = ('sree', 'sree123')
+auth = ('username', 'password')
 
 # get all files mounted on share
 req = server + api + '/server/share?directory=/'
