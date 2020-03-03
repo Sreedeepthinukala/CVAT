@@ -32,7 +32,9 @@ Clone CVAT source code from the GitHub repository.
 sudo apt-get install -y git
 git clone https://github.com/opencv/cvat
 cd cvat
-replace the original docker compose yml file with <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.yml">docker-compose-yml</a></p>. Under Volumes near device, give the path of the images folder.
+
+
+Replace the original docker compose yml file with <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.yml">docker-compose-yml</a></p>. Under Volumes near device, give the path of the images folder.
 
 Add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.override.yml">docker-override.yml</a></p>
 
