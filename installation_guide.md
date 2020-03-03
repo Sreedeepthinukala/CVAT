@@ -41,4 +41,24 @@ Build docker images by default. It will take some time to download public docker
 
 docker-compose build
 
+Run docker containers. It will take some time to download public docker images like postgres:10.3-alpine, redis:4.0.5-alpine and create containers.
+
+docker-compose up -d
+
+You can register a user but by default it will not have rights even to view list of tasks. Thus you should create a superuser. A superuser can use an admin panel to assign correct groups to the user. Please use the command below:
+
+docker exec -it cvat bash -ic 'python3 ~/manage.py createsuperuser'
+
+Google Chrome is the only browser which is supported by CVAT. Go to localhost:8080. Type your login/password for the superuser on the login page and press the Login button.
+
+Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, click try it out. Place the link there and execute. 200 ,eans ran successfully.
+
+To see if the images are shared successfully, follow this( create new task-> connected file share -> root).
+
+Now download and update user name and password in <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_api_testing.py">automation.py</a></p>and run it. 
+
+Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready for annotatio.
+
+
+
 
