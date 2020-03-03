@@ -104,5 +104,5 @@ volumes:
   cvat_share:
     driver_opts:
          type: none
-         device: /home/sree/Documents/images/Train_images
+         device: PATH OF IMAGES FOLDER
          o: bind
