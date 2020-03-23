@@ -63,7 +63,7 @@ Now download and update user name and password in <a href="https://github.com/Sr
 Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready to annotate.
 Once all the images are annotated, run <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> again. This will download the images to the required location.
 Now git clone https://github.com/AntonMu/TrainYourOwnYOLO
-Add href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> in immage_annotation and run this .py file first to convert all downloaded xmls to csv as neede for retraining yolov3 followed by Convert_to_YOLO_format.
+Add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> in immage_annotation and run this .py file first to convert all downloaded xmls to csv as neede for retraining yolov3 followed by Convert_to_YOLO_format.
 
 
 
