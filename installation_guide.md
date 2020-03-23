@@ -58,7 +58,7 @@ Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, 
 
 To see if the images are shared successfully, follow this( create new task-> connected file share -> root).
 
-Now download and update user name and password in <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_api_testing.py">automation.py</a></p>and run it. 
+Now download and update user name and password in <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p>and run it. 
 
 Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready to annotate.
 
