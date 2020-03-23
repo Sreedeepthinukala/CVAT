@@ -36,7 +36,7 @@ cd cvat
 
 Replace the original docker compose yml file with <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.yml">docker-compose-yml</a></p>
 
-Under Volumes near device, give the path of the images folder. If you are using this yolov3 retraining model,training images should be in 3.DATA->Source_images_Training images and aslo the same images should be in 3.DATA->Source_images_Training images->vott-csv-export.
+Under Volumes near device, give the path of the images folder. If you are using the yolo v3 model specified here, git clone https://github.com/AntonMu/TrainYourOwnYOLO,training. Images should be in 3.DATA->Source_images_Training images and also the same images should be in 3.DATA->Source_images_Training images->vott-csv-export.
 
 In the cvat folder, add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.override.yml">docker-override.yml</a></p> 
 
@@ -59,15 +59,11 @@ Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, 
 
 To see if the images are shared successfully, follow this( create new task-> connected file share -> root).
 
-Now download and update user name and password in <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p>and run it. 
-
-Once ran successfully, refresh CVAT localhost and you will be able to see that all images in the given folder are created as tasks and ready to annotate.
-Once all the images are annotated, run <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> again. This will download the images to the required location.
-Now git clone https://github.com/AntonMu/TrainYourOwnYOLO
+Once all the images are ready, git clone https://github.com/AntonMu/TrainYourOwnYOLO
 
 Add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> in immage_annotation This .py file first to convert all downloaded xmls to csv as needed for retraining yolov3 followed by Convert_to_YOLO_format.
 
-Once you have,annotated the images and set up the YOLOV3 folder, just run <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">. This will automatically download annotaed images to xmls, convertxmls to csv then to yolov3 and retrain your model.
+Once annotated images are ready and set up the YOLOV3 folder, just run <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> again.. This will automatically download annotaed images to xmls, convertxmls to csv then to yolov3 and retrain your model.
 
 
 
