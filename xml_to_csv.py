@@ -28,7 +28,7 @@ def xml_to_csv(path):
 
 
 def main():
-    image_path = os.path.join('/home/sree/Documents/TrainYourOwnYOLO_testing/1_Image_Annotation/annotations')
+    image_path = os.path.join('/home/sree/Documents/TrainYourOwnYOLO_master_TESTING/Data/Source_Images/Training_Images/vott-csv-export')
     xml_df = xml_to_csv(image_path)
     xml_df.to_csv('Annotations-export2.csv',index=False, quotechar='"',quoting=csv.QUOTE_NONNUMERIC)
     print('Successfully converted xml to csv.')
