@@ -36,7 +36,7 @@ cd cvat
 
 Replace the original docker compose yml file with <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.yml">docker-compose-yml</a></p>
 
-Under Volumes near device, give the path of the images folder. If you are using the yolo v3 model specified here, git clone https://github.com/AntonMu/TrainYourOwnYOLO,training. Images should be in 3.DATA->Source_images_Training images and also the same images should be in 3.DATA->Source_images_Training images->vott-csv-export.
+Under Volumes near device, give the path of the images folder. If you are using the yolo v3 model specified here, git clone https://github.com/AntonMu/TrainYourOwnYOLO. Images should be in 3.DATA->Source_images_Training images and also the same images should be in 3.DATA->Source_images_Training images->vott-csv-export.
 
 In the cvat folder, add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/docker-compose.override.yml">docker-override.yml</a></p> 
 
