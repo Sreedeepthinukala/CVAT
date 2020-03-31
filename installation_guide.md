@@ -59,9 +59,9 @@ Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, 
 
 To see if the images are shared successfully, follow this( create new task-> connected file share -> root).
 
-Once all the images are ready, go to rainYourOwnYOLO_master add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> in immage_annotation.
+Once all the images are ready, go to rainYourOwnYOLO_master add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> and <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> in the 1.Image_annotation folder.
 
-Once annotated images and YOLOV3 folder are ready just run <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> again.. This will automatically download annotaed images to xmls, convertxmls to csv then to yolov3 and retrain your model.
+Download <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/job.sh">automation.sh(job.sh is the file name)</a></p> and run ./job.sh in the terminal.
 
 
 
