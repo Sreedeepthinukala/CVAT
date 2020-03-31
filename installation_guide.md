@@ -55,7 +55,7 @@ docker exec -it cvat bash -ic 'python3 ~/manage.py createsuperuser'
 
 Google Chrome is the only browser which is supported by CVAT. Go to localhost:8080. Type your login/password for the superuser on the login page and press the Login button.
 
-Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, click try it out. Place the link there and execute. 200 ,eans ran successfully.
+Go to http://localhost:8080/api/swagger/. Under server, click GET server/share, click try it out. Place the images path there and execute. 200 ,eans ran successfully.
 
 To see if the images are shared successfully, follow this( create new task-> connected file share -> root).
 
@@ -63,7 +63,7 @@ Once all the images are ready, go to TrainYourOwnYOLO_master add <a href="https:
 
 Download <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/job.sh">automation.sh(job.sh is the file name)</a></p> and run ./job.sh in the terminal.
 
-
+Note: If you give less than 90 images and run it, it would throw and error "KeyError: 'val_loss'". So please make sure to give more than 90 images. More images for training would increase accuracy.
 
 
 
