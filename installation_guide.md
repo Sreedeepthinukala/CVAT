@@ -61,9 +61,10 @@ To see if the images are shared successfully, follow this( create new task-> con
 
 Once all the images are ready, go to TrainYourOwnYOLO_master add <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/xml_to_csv.py">xmltocsv.py</a></p> and <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/cvat_automation.py">automation.py</a></p> in the 1.Image_annotation folder.
 
-Download <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/job.sh">automation.sh(job.sh is the file name)</a></p> and run ./job.sh in the terminal.
+Download <a href="https://github.com/Sreedeepthinukala/CVAT/blob/master/job.sh">automation.sh(job.sh is the file name)</a></p> and run ./job.sh in the terminal.(Note: you have to update the virtual environment name. job.sh has my environment name)
 
 Note: If you give less than 90 images and run it, it would throw and error "KeyError: 'val_loss'". So please make sure to give more than 90 images. More images for training would increase accuracy.
+
 
 
 
